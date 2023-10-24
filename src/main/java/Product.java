@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class  Product {
+public class Product {
     protected int id;
     protected String title;
     protected int price;

@@ -39,7 +39,7 @@ public class ShopRepository {
         products = tmp;
     }
 
-    private Product FindById (int id) {
+    private Product FindById(int id) {
         for (Product product : products) {
             if (product.getId() == id) {
                 return product;
